@@ -2,10 +2,10 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Iqbal",
+  lastName: "Hanafi",
+  name: `Iqbal Hanafi`,
+  role: "Web Developer & Software Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -24,17 +24,17 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/iqbaalhaa",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/iqbaalhaa",
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@iqbaalhaa",
   },
   {
     name: "Email",
@@ -49,7 +49,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building reliable and modern web applications </>,
   featured: {
     display: true,
     title: (
@@ -65,14 +65,9 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Iqbal, a Web Developer & Software Engineer based in Jambi - Indonesia.  
+      I build scalable and interactive web applications, combining clean code, modern frameworks,  
+      and best software engineering practices to deliver high-quality digital solutions.
     </>
   ),
 };
@@ -98,9 +93,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am a Jambi-based Web Developer & Software Engineer with a passion for building scalable and interactive web applications.
+        I enjoy transforming complex challenges into clean, efficient, and maintainable solutions.
+        My work spans web development, system design, and software engineering best practices.
       </>
     ),
   },
@@ -109,17 +104,12 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Badan Pusat Statistik (BPS) Provinsi Jambi",
+        timeframe: "2023",
+        role: "Staff IT/Web Developer (Intern)",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed a web-based publication application system for the BPS Jambi.
           </>,
         ],
         images: [
@@ -133,17 +123,13 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Freelance Web Developer",
+        timeframe: "Now",
+        role: "Web Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Working as an independent Web Developer, helping businesses and individuals bring their ideas to life through modern, interactive, and efficient web applications.
+            I handle both frontend and backend development, ensuring seamless functionality and clean design.
           </>,
         ],
         images: [],
@@ -155,12 +141,8 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "UIN Sulthan Thaha Saifuddin Jambi",
+        description: <>Studied Information System.</>,
       },
     ],
   },
@@ -169,14 +151,21 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Laravel",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <> Experienced in building robust backend systems and RESTful APIs with Laravel. 
+          Skilled in applying clean architecture principles, authentication, and database optimization.
+          .</>
         ),
         tags: [
-          {
-            name: "Figma",
-            icon: "figma",
+          { name: "Laravel", 
+            icon: "laravel" 
+          },
+          { name: "PHP", 
+            icon: "php" 
+          },
+          { name: "MySQL", 
+            icon: "mysql" 
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -198,7 +187,8 @@ const about: About = {
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Building modern and scalable web applications using Next.js with React, 
+          integrating APIs and optimizing performance for fast, SEO-friendly experiences.</>
         ),
         tags: [
           {
